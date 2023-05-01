@@ -11,7 +11,7 @@ async def send_message(message, user_message, is_private):
         await message.channel.send('Something went wrong, please try again later')
 
 def run_discord_bot():
-    TOKEN = 'MTEwMjQxNTE4MDQxNzIyMDYzOQ.Gya8lL.Zpa0HtLVMOx05Lgv0vrg4m_8yk-kZ6_AUv8HRM'
+    TOKEN = 'DISCORD_TOKEN' '''Replace with your Discord bot token'''
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
