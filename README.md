@@ -1,5 +1,5 @@
 # birthBot
-Bot date reminder (birthday) for discord <br>
+Bot date reminder (birthday) made with python for discord <br>
 The bot is currently - in this version - **only managed locally**, and responds to these commands: <br>
 ```hello, roll, bye, help```
 
